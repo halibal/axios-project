@@ -6,7 +6,7 @@ async function getData(param) {
 
     // ${{data: users}.data.id}`
 
-    return {"users": users, "posts": posts}
+    return {"USERS": users, "POSTS": posts}
 }
 
 export default getData;
